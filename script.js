@@ -1,6 +1,6 @@
 $(document).ready(function() {
    const apiRoot = 'https://cryptic-scrubland-05205.herokuapp.com/v1/task/';
-   const trelloApiRoot = 'https://cryptic-scrubland-05205.herokuapp.com/v1/task/getTasks';
+   const trelloApiRoot = 'https://cryptic-scrubland-05205.herokuapp.com/v1/trello/';
    const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
    const $tasksContainer = $('[data-tasks-container]');
 
